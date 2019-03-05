@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D95F26222CB84000AE6DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F25222CB84000AE6DE1 /* AppDelegate.m */; };
+		84D95F29222CB84000AE6DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F28222CB84000AE6DE1 /* ViewController.m */; };
+		84D95F2C222CB84000AE6DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D95F2A222CB84000AE6DE1 /* Main.storyboard */; };
+		84D95F2E222CB84300AE6DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D95F2D222CB84300AE6DE1 /* Assets.xcassets */; };
+		84D95F31222CB84300AE6DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D95F2F222CB84300AE6DE1 /* LaunchScreen.storyboard */; };
+		84D95F34222CB84300AE6DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F33222CB84300AE6DE1 /* main.m */; };
+		84D95F3E222CB84300AE6DE1 /* soket_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F3D222CB84300AE6DE1 /* soket_testTests.m */; };
+		84D95F49222CB84300AE6DE1 /* soket_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F48222CB84300AE6DE1 /* soket_testUITests.m */; };
+		84D95F58222D10D300AE6DE1 /* ClientA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F57222D10D300AE6DE1 /* ClientA.m */; };
+		84D95F5B222E0CD300AE6DE1 /* Serve.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F5A222E0CD300AE6DE1 /* Serve.m */; };
+		84D95F5E222E21FB00AE6DE1 /* ClientB.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D95F5D222E21FB00AE6DE1 /* ClientB.m */; };
+		B58A9210E413B57D45FF7940 /* libPods-soket_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4327901DB38E7C737C5BE4E /* libPods-soket_test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D95F3A222CB84300AE6DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D95F19222CB84000AE6DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D95F20222CB84000AE6DE1;
+			remoteInfo = soket_test;
+		};
+		84D95F45222CB84300AE6DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D95F19222CB84000AE6DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D95F20222CB84000AE6DE1;
+			remoteInfo = soket_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81ACE146EC061294775964C2 /* Pods-soket_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soket_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-soket_test/Pods-soket_test.release.xcconfig"; sourceTree = "<group>"; };
+		84D95F21222CB84000AE6DE1 /* soket_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soket_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D95F24222CB84000AE6DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D95F25222CB84000AE6DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D95F27222CB84000AE6DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D95F28222CB84000AE6DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D95F2B222CB84000AE6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D95F2D222CB84300AE6DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D95F30222CB84300AE6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D95F32222CB84300AE6DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D95F33222CB84300AE6DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D95F39222CB84300AE6DE1 /* soket_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soket_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D95F3D222CB84300AE6DE1 /* soket_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soket_testTests.m; sourceTree = "<group>"; };
+		84D95F3F222CB84300AE6DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D95F44222CB84300AE6DE1 /* soket_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soket_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D95F48222CB84300AE6DE1 /* soket_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soket_testUITests.m; sourceTree = "<group>"; };
+		84D95F4A222CB84300AE6DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D95F56222D10D300AE6DE1 /* ClientA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientA.h; sourceTree = "<group>"; };
+		84D95F57222D10D300AE6DE1 /* ClientA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientA.m; sourceTree = "<group>"; };
+		84D95F59222E0CD300AE6DE1 /* Serve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Serve.h; sourceTree = "<group>"; };
+		84D95F5A222E0CD300AE6DE1 /* Serve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Serve.m; sourceTree = "<group>"; };
+		84D95F5C222E21FB00AE6DE1 /* ClientB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientB.h; sourceTree = "<group>"; };
+		84D95F5D222E21FB00AE6DE1 /* ClientB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientB.m; sourceTree = "<group>"; };
+		A4327901DB38E7C737C5BE4E /* libPods-soket_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soket_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89D43BB1A43F4B9919A9432 /* Pods-soket_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soket_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soket_test/Pods-soket_test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D95F1E222CB84000AE6DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A9210E413B57D45FF7940 /* libPods-soket_test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F36222CB84300AE6DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F41222CB84300AE6DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438732F08ECDC2C3C16D4FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4327901DB38E7C737C5BE4E /* libPods-soket_test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D95F18222CB84000AE6DE1 = {
+			isa = PBXGroup;
+			children = (
+				84D95F23222CB84000AE6DE1 /* soket_test */,
+				84D95F3C222CB84300AE6DE1 /* soket_testTests */,
+				84D95F47222CB84300AE6DE1 /* soket_testUITests */,
+				84D95F22222CB84000AE6DE1 /* Products */,
+				9119BDA5F1D1EC00C601E731 /* Pods */,
+				438732F08ECDC2C3C16D4FBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D95F22222CB84000AE6DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D95F21222CB84000AE6DE1 /* soket_test.app */,
+				84D95F39222CB84300AE6DE1 /* soket_testTests.xctest */,
+				84D95F44222CB84300AE6DE1 /* soket_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D95F23222CB84000AE6DE1 /* soket_test */ = {
+			isa = PBXGroup;
+			children = (
+				84D95F24222CB84000AE6DE1 /* AppDelegate.h */,
+				84D95F25222CB84000AE6DE1 /* AppDelegate.m */,
+				84D95F27222CB84000AE6DE1 /* ViewController.h */,
+				84D95F28222CB84000AE6DE1 /* ViewController.m */,
+				84D95F59222E0CD300AE6DE1 /* Serve.h */,
+				84D95F5A222E0CD300AE6DE1 /* Serve.m */,
+				84D95F56222D10D300AE6DE1 /* ClientA.h */,
+				84D95F57222D10D300AE6DE1 /* ClientA.m */,
+				84D95F5C222E21FB00AE6DE1 /* ClientB.h */,
+				84D95F5D222E21FB00AE6DE1 /* ClientB.m */,
+				84D95F2A222CB84000AE6DE1 /* Main.storyboard */,
+				84D95F2D222CB84300AE6DE1 /* Assets.xcassets */,
+				84D95F2F222CB84300AE6DE1 /* LaunchScreen.storyboard */,
+				84D95F32222CB84300AE6DE1 /* Info.plist */,
+				84D95F33222CB84300AE6DE1 /* main.m */,
+			);
+			path = soket_test;
+			sourceTree = "<group>";
+		};
+		84D95F3C222CB84300AE6DE1 /* soket_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D95F3D222CB84300AE6DE1 /* soket_testTests.m */,
+				84D95F3F222CB84300AE6DE1 /* Info.plist */,
+			);
+			path = soket_testTests;
+			sourceTree = "<group>";
+		};
+		84D95F47222CB84300AE6DE1 /* soket_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D95F48222CB84300AE6DE1 /* soket_testUITests.m */,
+				84D95F4A222CB84300AE6DE1 /* Info.plist */,
+			);
+			path = soket_testUITests;
+			sourceTree = "<group>";
+		};
+		9119BDA5F1D1EC00C601E731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E89D43BB1A43F4B9919A9432 /* Pods-soket_test.debug.xcconfig */,
+				81ACE146EC061294775964C2 /* Pods-soket_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D95F20222CB84000AE6DE1 /* soket_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D95F4D222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_test" */;
+			buildPhases = (
+				DF4504121E541F283C4FBBD0 /* [CP] Check Pods Manifest.lock */,
+				84D95F1D222CB84000AE6DE1 /* Sources */,
+				84D95F1E222CB84000AE6DE1 /* Frameworks */,
+				84D95F1F222CB84000AE6DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soket_test;
+			productName = soket_test;
+			productReference = 84D95F21222CB84000AE6DE1 /* soket_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D95F38222CB84300AE6DE1 /* soket_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D95F50222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_testTests" */;
+			buildPhases = (
+				84D95F35222CB84300AE6DE1 /* Sources */,
+				84D95F36222CB84300AE6DE1 /* Frameworks */,
+				84D95F37222CB84300AE6DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D95F3B222CB84300AE6DE1 /* PBXTargetDependency */,
+			);
+			name = soket_testTests;
+			productName = soket_testTests;
+			productReference = 84D95F39222CB84300AE6DE1 /* soket_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D95F43222CB84300AE6DE1 /* soket_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D95F53222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_testUITests" */;
+			buildPhases = (
+				84D95F40222CB84300AE6DE1 /* Sources */,
+				84D95F41222CB84300AE6DE1 /* Frameworks */,
+				84D95F42222CB84300AE6DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D95F46222CB84300AE6DE1 /* PBXTargetDependency */,
+			);
+			name = soket_testUITests;
+			productName = soket_testUITests;
+			productReference = 84D95F44222CB84300AE6DE1 /* soket_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D95F19222CB84000AE6DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = dl;
+				TargetAttributes = {
+					84D95F20222CB84000AE6DE1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					84D95F38222CB84300AE6DE1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84D95F20222CB84000AE6DE1;
+					};
+					84D95F43222CB84300AE6DE1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84D95F20222CB84000AE6DE1;
+					};
+				};
+			};
+			buildConfigurationList = 84D95F1C222CB84000AE6DE1 /* Build configuration list for PBXProject "soket_test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D95F18222CB84000AE6DE1;
+			productRefGroup = 84D95F22222CB84000AE6DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D95F20222CB84000AE6DE1 /* soket_test */,
+				84D95F38222CB84300AE6DE1 /* soket_testTests */,
+				84D95F43222CB84300AE6DE1 /* soket_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D95F1F222CB84000AE6DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D95F31222CB84300AE6DE1 /* LaunchScreen.storyboard in Resources */,
+				84D95F2E222CB84300AE6DE1 /* Assets.xcassets in Resources */,
+				84D95F2C222CB84000AE6DE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F37222CB84300AE6DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F42222CB84300AE6DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF4504121E541F283C4FBBD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soket_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D95F1D222CB84000AE6DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D95F58222D10D300AE6DE1 /* ClientA.m in Sources */,
+				84D95F5E222E21FB00AE6DE1 /* ClientB.m in Sources */,
+				84D95F29222CB84000AE6DE1 /* ViewController.m in Sources */,
+				84D95F34222CB84300AE6DE1 /* main.m in Sources */,
+				84D95F5B222E0CD300AE6DE1 /* Serve.m in Sources */,
+				84D95F26222CB84000AE6DE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F35222CB84300AE6DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D95F3E222CB84300AE6DE1 /* soket_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D95F40222CB84300AE6DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D95F49222CB84300AE6DE1 /* soket_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D95F3B222CB84300AE6DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D95F20222CB84000AE6DE1 /* soket_test */;
+			targetProxy = 84D95F3A222CB84300AE6DE1 /* PBXContainerItemProxy */;
+		};
+		84D95F46222CB84300AE6DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D95F20222CB84000AE6DE1 /* soket_test */;
+			targetProxy = 84D95F45222CB84300AE6DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D95F2A222CB84000AE6DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D95F2B222CB84000AE6DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D95F2F222CB84300AE6DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D95F30222CB84300AE6DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D95F4B222CB84300AE6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D95F4C222CB84300AE6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D95F4E222CB84300AE6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D43BB1A43F4B9919A9432 /* Pods-soket_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K8JTBT3MF;
+				INFOPLIST_FILE = soket_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongliang.soket.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D95F4F222CB84300AE6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81ACE146EC061294775964C2 /* Pods-soket_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K8JTBT3MF;
+				INFOPLIST_FILE = soket_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongliang.soket.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D95F51222CB84300AE6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM5Q92D783;
+				INFOPLIST_FILE = soket_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongliang.soket-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soket_test.app/soket_test";
+			};
+			name = Debug;
+		};
+		84D95F52222CB84300AE6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM5Q92D783;
+				INFOPLIST_FILE = soket_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongliang.soket-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soket_test.app/soket_test";
+			};
+			name = Release;
+		};
+		84D95F54222CB84300AE6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM5Q92D783;
+				INFOPLIST_FILE = soket_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongliang.soket-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soket_test;
+			};
+			name = Debug;
+		};
+		84D95F55222CB84300AE6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM5Q92D783;
+				INFOPLIST_FILE = soket_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongliang.soket-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soket_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D95F1C222CB84000AE6DE1 /* Build configuration list for PBXProject "soket_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D95F4B222CB84300AE6DE1 /* Debug */,
+				84D95F4C222CB84300AE6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D95F4D222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D95F4E222CB84300AE6DE1 /* Debug */,
+				84D95F4F222CB84300AE6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D95F50222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D95F51222CB84300AE6DE1 /* Debug */,
+				84D95F52222CB84300AE6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D95F53222CB84300AE6DE1 /* Build configuration list for PBXNativeTarget "soket_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D95F54222CB84300AE6DE1 /* Debug */,
+				84D95F55222CB84300AE6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D95F19222CB84000AE6DE1 /* Project object */;
+}
