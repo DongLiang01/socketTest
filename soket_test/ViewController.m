@@ -157,7 +157,6 @@
             mySelf.clientATextView.text = [mySelf.clientATextView.text stringByAppendingString:[NSString stringWithFormat:@"\n%@",msg]];
         });
     }];
-    
     [[ClientA shareClinetA] sendMsgToB];
     
     [[ClientB shareClinetB] connect];
