@@ -19,7 +19,7 @@ typedef void(^clientAMessageBlock)(NSString *msg);  ///传消息
 +(id)shareClinetA;
 ///连接服务器
 -(BOOL)connect;
-///给B发消息
+///给B发消息sss
 -(void)sendMsgToB;
 
 -(void)clientAGetMsg:(clientAMessageBlock)clientAmsg;
